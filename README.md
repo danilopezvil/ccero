@@ -1,3 +1,4 @@
 # cero
 
-I put my snipets here.
+## mail.py
+Script to send mails (SMTP)
